@@ -1,0 +1,85 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#choose-para{
+        font-size: 70;
+        color: whitesmoke;
+        font-family: fantasy;
+        margin-top: 30px;
+}
+
+.choose-char{
+    height: 200;
+    width: 250;
+    border: 5px dotted rgb(76, 112, 17);
+    border-radius: 14px;
+    padding: 15px;
+    position: fixed;
+    top: 180;
+}
+
+
+#monkey-char{
+    left: 300;
+}
+
+#ostrich-char{
+    left: 900;
+}
+
+.char-card{
+    display: block;
+    background-color: lightcyan;
+    color: black;
+    font-size: 40;
+    width: 400;
+    height:450;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: fixed;
+    top: 100;
+    left: 550;
+    border: 5px dotted  lightcyan;
+    border-radius: 14px;
+    padding: 15px;
+}
+
+#monkey-card{
+    display: none;    
+}
+
+#ostrich-card{
+    display: none;
+}
+
+#monkey-char:hover~#monkey-card{
+    display: block;
+    cursor: pointer;
+    
+}
+
+#monkey-char:hover{
+    opacity: 0.3;
+}
+
+#ostrich-char:hover~#ostrich-card {
+    display: block;
+    cursor: pointer;
+}
+
+#ostrich-char:hover{
+    opacity: 0.3;
+}
+
+.img-card{
+    height: 150;
+    width: 100;
+}
+
+span{
+    text-align: left;
+    color: black;
+}
