@@ -1,0 +1,52 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+#credits-title{
+    position: fixed;
+    left:380;
+    font-size: 70;
+    margin-top: 0px;
+    margin: 0px 0px;
+    color: green;
+}
+
+#start-line{
+    position: fixed;
+    left:200;
+    top:100;
+    display: inline;
+    font-size: 50;
+}
+
+#mamo-team{
+    font-style: italic;
+    
+    font-size: 50px;
+    position: fixed;
+    left:320;
+    top:170;
+    font-size: 50;
+    color:crimson;
+}
+
+#names{
+    position: fixed;
+    top: 210;
+    left:260;
+    font-size: 40px;
+}
+
+#back-to-main{
+    position: fixed;
+    top:570;
+    left:1160;
+    background-color: beige;
+    width: 200px;
+    height: 30px;
+    border-color:blanchedalmond;
+    font-size: 20px;
+    font-style: bold;
+}
