@@ -1,0 +1,162 @@
+body {
+
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    box-sizing:border-box ;
+    background-position: right top;
+    background-size:1366px 657px  ;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+   
+   }
+
+   h1 {
+
+    margin-left: 355px;
+    font-family:cursive;
+    margin-top:60px;
+    width:600px;
+    font-size: 50px;
+    color:orange;
+    text-align: center;
+    font-weight: bolder;
+    animation: mover 1.5s linear infinite;
+    display: inline-block;
+    background-color:darkred;
+    padding:15px;
+    border-radius: 0px;
+    border-style: solid;
+    border-color: orange;
+    
+       }
+
+   .imge {
+  
+    display: inline-block;
+    width: 20px;
+    margin-left:280px;
+
+         }
+
+.imge img {
+
+    height: 200px;
+    width: 200px;
+    margin-top:100px ;
+    margin-bottom:20px;
+
+          }
+
+  
+ .fruitbtn {
+
+    color:darkred;
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size:30px;
+    width:140px;
+    border-radius: 14px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 1px;
+    padding-bottom:1px;
+    background-color: orange;
+    border-style: solid;
+    border-color: darkred;
+    margin-left:313px;
+    margin-top: -300px;
+
+            }
+
+.fruitbtn:hover {
+               
+    color: #fff;
+          
+                }
+
+
+.sportbtn {
+
+    color:darkred;
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size:30px;
+    width:140px;
+    border-radius: 14px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 1px;
+    padding-bottom:1px;
+    background-color: orange;
+    border-style: solid;
+    border-color: darkred;
+    margin-left: 170px;
+    margin-top: 50%;
+
+
+                }
+
+.sportbtn:hover {
+               
+    color: #fff;
+          
+                }
+
+.animalbtn {
+
+    color:darkred;
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size:30px;
+    width:140px;
+    border-radius: 14px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 1px;
+    padding-bottom:1px;
+    background-color: orange;
+    border-style: solid;
+    border-color: darkred;
+    margin-left: 147px;
+    margin-top: 50%;
+
+
+            }
+
+.animalbtn:hover {
+               
+    color:white;
+          
+                 }
+
+ .btnnext {
+
+    list-style: none;
+    text-decoration: none;
+    margin-top:30px;
+    margin-left: 1100px;
+    box-sizing: padding-box;
+    display: inline-block;
+    width :200px;
+    background-color:gray;
+    padding: 7px;
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    
+              
+           }  
+
+   .btnnext:hover {
+              
+    color: #fff;
+              
+                  }
+                
+
+
+ 
