@@ -1,0 +1,51 @@
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: lightgoldenrodyellow ;
+    color: rgb(219, 190, 153);
+    margin-bottom: 15px;
+    width: 300;
+    height:400;
+    position: fixed;
+    top: 100;
+    left: 500;
+    border: 7px solid rgb(219, 190, 153);
+    border-radius: 20px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-size: 30px;
+    font-style: bold;
+    background-color: rgba(94, 53, 0, 0.712);
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 15px;
+    height: 20px;
+    position: relative;
+    left: 35 ;
+    bottom: 35 ;
+    border: 2px solid rgba(94, 53, 0, 0.712);
+    padding: 1px 5px;
+    border-radius: 10px;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    background-color: brown;
+    border: 2px solid brown;
+    color: black;
+  }
+
+  /* message characteristics */
+  #pop-up-msg{
+      color: olive;
+      font-family: "Lucida Console", "Courier New", monospace;
+      font-size: 40px;
+  }
