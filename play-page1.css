@@ -1,0 +1,62 @@
+body{
+    background: url(background_18.png);
+    background-size: 100% 100%;
+    min-height: 653px;
+    background-repeat: no-repeat;
+}
+#Account{
+    position: absolute;
+    transform:translate(50% , 50%);
+    padding: 20px 25px 25px 25px;
+    margin-left: 120px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.Username{
+    color:rgb(2, 53, 19);
+    font-weight: bold;
+    font-size: 3pc;
+    
+}
+#textbox{
+    font-size: 2pc;
+    background-color: rgba(245, 222, 179, 0);
+    color:rgb(2, 53, 19);
+    margin-left: 10px;
+    border-color: wheat;
+    outline-color: rgba(245, 222, 179, 0);
+    text-align: center;
+    
+}
+.NextBack{
+    width: 120px;
+    text-align: center;
+    /*background-image: url("C:\Users\Dell\Desktop\images (2).jpg");*/
+    background-attachment: fixed;
+    background-color: peru;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration-style: none;
+    display: inline;
+    color: rgb(2, 53, 19) ;
+    margin:30px;
+    box-sizing: border-box;
+    border-color: sandybrown ;
+    outline-style: outset;
+    outline-width: thick;
+    outline-color: peru;
+   
+}
+
+#back{
+   position: absolute;
+   margin-left: 100px;
+   margin-top: 550px;
+}
+#next{
+    position: absolute;
+    margin-left: 1150px ;
+    margin-top: 550px;
+}
