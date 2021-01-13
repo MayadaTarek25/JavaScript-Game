@@ -1,0 +1,69 @@
+body{
+    background: url(background_18.png);
+    background-size: 100%;
+    min-height: 215px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Settings{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    transform:translate(-50%, -50%);
+    text-align:center;
+    border-radius: 5px;
+    padding: 20px 120px ;
+    font-size: 4pc;
+    display: inline;
+    font-family: Arial;
+    font-style: oblique;
+
+}
+header{
+    color: rgb(165, 108, 42);
+}
+p{
+    display:block;
+    font-size: 3pc;
+    color: rgb(255, 0, 43)
+}
+.Sound{
+    display: inline;
+}
+.switch{
+    position: relative;
+    display: block;
+    width: 110px;
+    height: 60px;
+    margin: 0 0 30px 60px;
+}
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+.switch input {display:none;}
+.slider:before{
+    position: absolute;
+    content: "";
+    height: 50px;
+    width: 50px;
+    left: 5px;
+    bottom: 5px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+input:checked + .slider{
+    background-color: #beff27;
+}
+input:checked + .slider:before{
+    transform: translatex(50px);
+}
