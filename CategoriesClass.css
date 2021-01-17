@@ -1,10 +1,13 @@
 body{
-    background: url(Forest1.jpg);
-    background-size: 100% 100%;
-    min-height: 652px;
+    background-image: url("background.jpeg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
-
+    background-size: cover;
+    background-size: 100% 100%;
+    text-align: center;
+    min-height:auto;
 }
+
 .WordPosition{
     position: absolute;
     top: 20%;
@@ -14,7 +17,7 @@ body{
     text-align:center;
     border-radius: 70px;
     padding: 10px 120px ;
-    font-size: 4pc;
+    font-size: 3pc;
     display: inline-block;
     font-family: Arial;
     font-style: italic;
@@ -33,22 +36,7 @@ body{
     font-family: Arial;
     font-style: italic;
 }
-#helpbutton{
-    width: 100px;
-    text-align: center;
-    /*background-image: url("C:\Users\Dell\Desktop\images (2).jpg");*/
-    background-attachment: fixed;
-    background-color: peru;
-    font-size: 20px;
-    font-weight: 400;
-    font-style: italic;
-    text-decoration-style: none;
-    display: inline;
-    color: rgb(2, 53, 19) ;
-    margin:30px;
-    box-sizing: border-box;
-    border-color: sandybrown ;
-    outline-style: outset;
-    outline-width: thick;
-    outline-color: peru;   
+#helplamp{
+    max-height: 100px;
+    margin-top:10px ;
 }

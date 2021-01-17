@@ -54,21 +54,20 @@ class Category {
     }
     /*This function take answer function output and the pressed character 
     to display it if it exist in the word*/
-    displayCharacter(answer,char){
-        let dashstring="";
+    addCharacter(answer,char,dashstring){
+        var arrayofdashstring = dashstring.split("    ");
+        dashstring="";
         for(let i=0 ; i<answer.length ; i++)
         { if(char.toLowerCase() === answer[i].toLowerCase())
-            {
-            if (i===0){char=char.toUpperCase()}
-            dashstring=dashstring+char;
-            dashstring=dashstring+"    ";
-            }
-          else
-            {
-            dashstring=dashstring+"_";
-            dashstring=dashstring+"    ";
+            {if (i===0){char=char.toUpperCase()}
+            arrayofdashstring[i]=char;
             }
         }
+        for(let i=0 ; i<(arrayofdashstring.length-1) ; i++) 
+            {
+                dashstring=dashstring+arrayofdashstring[i];
+                dashstring=dashstring+"    ";
+            } 
         
         return dashstring;
     }
@@ -115,7 +114,7 @@ class Fruits extends Category {
     }
 }
 //check category which user chosen//
-category="Fruits"
+category="Animals"
 if(category === "Fruits")
 {
     object1=new Fruits();
@@ -129,23 +128,25 @@ else
     object1=new Sports();
 }
 ////////////test/////////////
-select=object1.selectRandomWord(object1.words.length,object1.usednumbers)
-console.log(select);
-console.log(object1.words[select]);
-console.log(object1.usednumbers);
-string1=object1.countCharacters(select,object1.words)
-console.log(string1);
-object1.displayDashWord(string1)
-//object1.hiddeDashWord()
-answer=object1.answer(select,object1.words)
-string1=object1.displayCharacter(answer,"r")
-object1.displayDashWord(string1)
-object1.displayDescription(select,object1.descriptions)
-object1.hiddenDescription();
+//choose random
+randomnum=object1.selectRandomWord(object1.words.length,object1.usednumbers);
+console.log(randomnum);
+dashword=object1.countCharacters(randomnum,object1.words);
+console.log(dashword);
+display=object1.displayDashWord(dashword);
+arrayofanswer= object1.answer(randomnum,object1.words);
+console.log(arrayofanswer);
+function btn_clk_check(value){
+    object1.addCharacter(arrayofanswer,value,dashword);
+}
 
 //Add event on help button//
-var helpbutton= document.getElementById("helpbutton");
-helpbutton.addEventListener("click",showDescription)
+var helplamp= document.getElementById("helplamp");
+helplamp.addEventListener("mousemove",showDescription)
+helplamp.addEventListener("mouseleave",hideDescription)
 function showDescription() {
-    object1.displayDescription(select,object1.descriptions)
+    object1.displayDescription(randomnum,object1.descriptions)
+}
+function hideDescription() {
+    object1.hiddenDescription(randomnum,object1.descriptions)
 }
