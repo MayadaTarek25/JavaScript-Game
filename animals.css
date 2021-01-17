@@ -1,0 +1,30 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.GORILLAidle{
+    position: relative;
+    
+    height: 25%;
+
+    left:450;
+    bottom:-300;
+}
+
+.MONKEYidle{
+    position: relative;
+    
+    height: 20%;
+    left:-50;
+    bottom:-300;
+}
+
+.OSTRICHidle{
+    position: relative;
+    
+    height: 17%;
+    left:-400;
+    bottom:-300;
+}
