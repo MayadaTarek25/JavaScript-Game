@@ -7,24 +7,38 @@ body{
 .GORILLAidle{
     position: relative;
     
-    height: 25%;
+    height: 20%;
 
     left:450;
-    bottom:-300;
+    bottom:-340;
 }
 
 .MONKEYidle{
     position: relative;
     
-    height: 20%;
+    /*height: 20%;*/
     left:-50;
-    bottom:-300;
+    bottom:-340;
 }
 
 .OSTRICHidle{
     position: relative;
     
-    height: 17%;
+    height: 10%;
     left:-400;
-    bottom:-300;
+    bottom:-340;
+}
+
+#gorilla2{
+    position: relative;
+    height: 10%;
+    bottom:-340;
+    visibility: hidden; 
+}
+
+#monkey2{
+    position: relative;
+    bottom:-280;
+    left:-350;
+    visibility: hidden; 
 }
