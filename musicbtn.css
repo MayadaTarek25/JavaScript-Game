@@ -1,0 +1,35 @@
+
+
+
+
+.btn {
+
+    width: 130px;
+text-align: center;
+/*background-image: url("C:\Users\Dell\Desktop\images (2).jpg");*/
+background-attachment: fixed;
+background-color: peru;
+font-size: 30px;
+font-weight: 550;
+font-style: italic;
+text-decoration-style: none;
+display: block;
+color: rgb(2, 53, 19) ;
+margin:200px;
+box-sizing: border-box;
+border-color: sandybrown ;
+outline-style: outset;
+outline-width: thick;
+outline-color: peru;
+text-decoration: none;
+padding: 5px;
+cursor: pointer;
+margin-left: 600px;
+
+
+
+}      
+.btn:hover {
+               
+    color: #fff;
+}
