@@ -1,0 +1,85 @@
+body{
+    background-image: url("background.png");
+ background-repeat: no-repeat;
+ box-sizing:border-box ;
+ background-position: right top;
+ background-size:1366px 657px  ;
+ background-attachment: fixed;
+
+
+}
+#Account{
+    position: absolute;
+    transform:translate(50% , 50%);
+    padding: 20px 25px 25px 25px;
+    margin-left: 120px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.Username{
+    color:rgb(2, 53, 19);
+    font-weight: bold;
+    font-size: 3pc;
+
+    
+}
+#textbox{
+    font-size: 2pc;
+    background-color: rgba(245, 222, 179, 0);
+    color:rgb(2, 53, 19);
+    margin-left: 10px;
+    border-color: wheat;
+    outline-color: rgba(245, 222, 179, 0);
+    text-align: center;
+    
+}
+.NextBack{
+    width: 130px;
+    text-align: center;
+    /*background-image: url("C:\Users\Dell\Desktop\images (2).jpg");*/
+    background-attachment: fixed;
+    background-color: peru;
+    font-size: 30px;
+    font-weight: 550;
+    font-style: italic;
+    text-decoration-style: none;
+    display: inline;
+    color: rgb(2, 53, 19) ;
+    margin:30px;
+    box-sizing: border-box;
+    border-color: sandybrown ;
+    outline-style: outset;
+    outline-width: thick;
+    outline-color: peru;
+    text-decoration: none;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+#backbtn{
+   position: absolute;
+   margin-left: 60px;
+   margin-top: 550px;
+
+}
+
+#backbtn:hover {
+              
+    color: #fff;
+              
+                  }
+
+
+#nextbtn{
+    position: absolute;
+    margin-left: 1150px ;
+    margin-top: 550px;
+}
+
+#nextbtn:hover {
+              
+    color: #fff;
+              
+                  }

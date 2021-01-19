@@ -1,0 +1,162 @@
+
+body {
+
+  background-image: url("background.png");
+ background-repeat: no-repeat;
+ box-sizing:border-box ;
+ background-position: right top;
+ background-size:1366px 657px  ;
+ background-attachment: fixed;
+
+}
+
+
+ .buttons {
+
+  margin-top: 150px;
+  margin-left:530px;
+  
+
+      }
+/*
+
+ .btn-start-page {
+
+ list-style: none;
+ text-decoration: none;
+ margin-bottom: 30px;
+ margin-top:50px;
+ margin-left: 530px;
+ box-sizing: padding-box;
+ display:block;
+ width :200px;
+ background-color: darkgray;
+ padding: 12px;
+ text-align:center;
+ font-size: 2em;
+ color: black;
+
+                }
+              */
+
+             
+
+
+  .btn-start-page {
+
+
+    width: 200px;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+
+    /*background-image:url("buttons.jpg") ;*/
+
+
+
+    background-attachment: fixed;
+    background-color: peru;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration-style: none;
+    display: block;
+    color: rgb(2, 53, 19) ;
+    margin:50px;
+    box-sizing: border-box;
+    border-color: sandybrown ;
+    outline-style: outset;
+    outline-width: thick;
+    outline-color: peru;
+    cursor: pointer;
+
+                    }
+
+
+
+                  
+
+
+ .btn-start-page:hover{
+               
+  color: #fff;
+                              
+                     }
+
+
+                     /*
+
+                     .alert {
+                        padding: 10px;
+                        background-color: lightgoldenrodyellow ;
+                        color: rgb(219, 190, 153);
+                        top: 145px;
+                        width: 400px;
+                        height:330px;
+                        position: fixed;
+                       margin-left: 460px;
+                       outline-width: thick;
+                       border-color:peru ;
+                       border-style: solid;
+                       outline-color: peru;
+                        border-radius: 20px;
+                      }
+                      
+                    
+                      .closebtn {
+                        margin-left: 15px;
+                        color: white;
+                        font-size: 30px;
+                        font-style: bold;
+                        background-color: rgba(94, 53, 0, 0.712);
+                        font-weight: bold;
+                        float: right;
+                        font-size: 22px;
+                        line-height: 20px;
+                        cursor: pointer;
+                        transition: 0.3s;
+                        width: 15px;
+                        height: 20px;
+                        position: relative;
+                        left: 35 ;
+                        bottom: 35 ;
+                        border: 2px solid rgba(94, 53, 0, 0.712);
+                        padding: 1px 5px;
+                        border-radius: 10px;
+                      }
+                      
+              
+                      .closebtn:hover {
+                        background-color: brown;
+                        border: 2px solid brown;
+                        color: black;
+                      }
+                    
+                 
+
+
+
+                      #pop-up-msg{
+                          color: rgb(2, 53, 19);
+                      
+                          font-size: 30px;
+                          font-style: italic;  
+                          font-weight: bold;
+                          margin-top: 100px;
+                         
+
+                      }    
+                      #pop-up-msg2{
+
+                         color: rgb(2, 53, 19);
+
+                          font-size: 30px;
+                          font-style: italic;  
+                          font-weight: bold;
+                          text-align: center;
+                         
+margin-top: -30px;                
+    }
+ 
+
+*/
