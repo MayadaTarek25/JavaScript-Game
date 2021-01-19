@@ -107,7 +107,12 @@ class Category {
                    
                 }
                 else {
+                    var textbox6=localStorage.getItem("textbox4");
                     word_right();
+                    var endmessage=document.getElementById("endmessage");
+                    endmessage.innerHTML=`Congratulations ${textbox6}! <br> YOU WON`;
+                    endmessage.style.display="inline"
+                    setInterval('window.location ="Game.html" ',10000)  
                 }
             }
 
@@ -116,7 +121,7 @@ class Category {
         {
             char_wrong();
             livetrails--;
-            tries(livetrails);
+            trials(livetrails);
         }
         for (let i = 0; i < (arrayofdashstring.length - 1); i++) {
             dashstring = dashstring + arrayofdashstring[i];
@@ -145,9 +150,11 @@ class Category {
 class Animals extends Category {
     constructor() {
         super();
-        this.words = ["Lion", "Dog", "Cat", "Mouse", "Rabbit"];
-        this.descriptions = ["king of forest", "characterized by loyalty", "it loves milk",
-            "it loves cheese", "it is fast"]
+        this.words = ["Lion", "Dog", "Cat", "Mouse", "Rabbit","Alephent" , "Crocodile" , "Frog" , "Turtle" , "Spider" , "Horse" , "Butterfly" , "Camel"];
+        this.descriptions = ["King of forest", "Characterized by loyalty", "It loves milk",
+            "It loves cheese", "It is fast","It is large and grey" , "It eats fish and birds" , "Its skin is green and slippery" , 
+            "It carries its house around it" , "It has eight legs" , "It has long tail" , "It is small and colorful" , 
+            "It is a desert animal"]
         this.usednumbers = [];
     };
 }
@@ -158,7 +165,7 @@ class Sports extends Category {
             "Figure", "skating", "Yoga","Fencing","Karate","Volleyball","Basketball","Rugby","Cycling","Running","Golf"]
         this.descriptions = ["Using a bow to shoot arrows","Using racquets to hit a shuttlecock across a net",
              "Bat-and-ball game","Player rolls a ball toward pins", "Players wear protective gloves", "Players slide stones on a sheet of ice",
-             "Racket sport“, “Use a skateboard", "Surface water pastime", "Use a hockey stick", "Performing on figure skates on ice", "Group of physical mental and spiritual practices","Fighting sport", "Japanese martial art","Team sport", "six players each team ","Team sport","five players each team" ,"Use an oval-shaped ball","Use of bicycles for transport","Move rapidly on foot",
+             "Racket sport", "Use a skateboard", "Surface water pastime", "Use a hockey stick", "Performing on figure skates on ice", "Group of physical mental and spiritual practices","Fighting sport", "Japanese martial art","Team sport", "six players each team ","Team sport","five players each team" ,"Use an oval-shaped ball","Use of bicycles for transport","Move rapidly on foot",
              "Club-and-ball sport"]
         this.usednumbers = [];
     };
@@ -166,9 +173,10 @@ class Sports extends Category {
 class Fruits extends Category {
     constructor() {
         super();
-        this.words = ["Apple", "Breadfruit", "Cantaloupe", "Mango", "Kumquat"]
-        this.descriptions = ["it is red", "it is yellow", "it is green",
-            "it is yellow", "it is green"]
+        this.words = ["Apple","Cantaloupe", "Mango", "Kumquat","Watermelon", "Kiwi", "Banana","Orange","Coconut", "Grape", "Strawberry", "Cherry", "pineapple", "fig","Raspberry", "Papaya","Apricot","Peach"]
+        this.descriptions = ["It is red or green","It is green",
+            "It is yellow", "It is green","Green outside red inside", "Chinese gooseberry", "It is yellow", "Round","Covered by a thick", "Brown and hairy shell", "Used to make jam", "Jelly and vinegar","Red berries", "Has a single stony seed", "Cylindrical in shape", "Has red or white flesh",
+            "Has a flat dome-shape","Tropical fruit","Smaller version of a peach","Round", "Colored and juicy"]
         this.usednumbers = [];
     }
 }
@@ -191,7 +199,7 @@ range('A', 'Z').join();
 btngn();///why it is a function!!!!!!!!!!!!!!!!1/////
 ////////////
 //check category which user chosen//
-category = "Sports"
+/*category = "Fruits"
 if (category === "Fruits") {
     object1 = new Fruits();
 }
@@ -211,11 +219,24 @@ else if (level === 2) {
 }
 else {
 
+}*/
+category=localStorage.getItem("category3"); 
+console.log(category);
+
+if (category === "1") {
+    object1 = new Fruits();
 }
+else if (category === "2") {
+    object1 = new Sports();
+}
+else if (category === "3"){
+    object1 = new Animals();
+}
+//check level which user chosen//
 ///////////////////////////////////////////
 //choose random
 var counterchar = 0;
-var livetrails=6;
+//var livetrails=6;
 randomnum = object1.selectRandomWord(object1.words.length, object1.usednumbers);
 console.log(randomnum);
 dashword = object1.countCharacters(randomnum, object1.words);

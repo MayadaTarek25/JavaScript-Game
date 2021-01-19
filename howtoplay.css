@@ -3,7 +3,7 @@ body{
   background-repeat: no-repeat;
   box-sizing:border-box ;
   background-position: right top;
-  background-size:1366px 657px  ;
+  background-size:1366px 680px  ;
   background-attachment: fixed;
  
   
@@ -57,7 +57,7 @@ body{
  
     border-radius: 70px;
 
-    height: 150px;
+    height: 250px;
     display: inline-block;
    
    

@@ -32,15 +32,21 @@ body{
     top:6px;
     left:440px;
 }
+#musicbtn{
+    max-height: 60px;
+    position: absolute;
+    top:7px;
+    left:1200px;
+}
 .DescriptionPosition{
     position: absolute;
     top:5%;
-    left: 15%;
+    left: 20%;
     background-color:wheat;
     transform:translate(-50%, -50%);
     text-align:center;
     border-radius: 70px;
-    padding: 10px 50px ;
+    padding: 10px 10px ;
     font-size: 1pc;
     display: none;
     font-family: Arial;
