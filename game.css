@@ -1,0 +1,63 @@
+body {
+
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  box-sizing:border-box ;
+  background-position: right top;
+  background-size:1366px 657px  ;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+ 
+ }
+
+p{
+  font-size: 100px;
+  font-style: italic;  
+  font-weight: bold;
+  text-align: center ;
+  margin-top: 30px;
+  color: rgb(2, 53, 19);
+}
+button{
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    /*
+background-image: url("C:\Users\Dell\Desktop\images (2).jpg");
+*/
+background-attachment: fixed;
+background-color: peru;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration-style: none;
+    display: block;
+    color: rgb(2, 53, 19) ;
+    margin:70px;
+    box-sizing: border-box;
+    border-color: sandybrown ;
+    outline-style: outset;
+    outline-width: thick;
+    outline-color: peru;
+   top: 50%;
+   bottom: 50%;
+   margin-left: 600px;
+    cursor: pointer;
+   
+}
+#easy:hover  {
+
+  color: #fff;
+
+}
+#medium:hover  {
+
+  color: #fff;
+
+}
+#hard:hover  {
+
+  color: #fff;
+
+}

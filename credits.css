@@ -1,0 +1,76 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+#credits-title{
+    font-size: 80px;
+    font-style: italic;  
+    font-weight: bold;
+    text-align: center ;
+    color: rgb(2, 53, 19);
+}
+
+#start-line{
+    position: fixed;
+    left:200;
+    top:100;
+    display: inline;
+    font-size: 50;
+    margin-top: 50px;
+}
+
+#mamo-team{
+    font-style: italic;
+    
+    font-size: 50px;
+    position: fixed;
+    left:320;
+    top:170;
+    font-size: 50;
+    color:crimson;
+    margin-top: 50px;
+
+}
+
+#names{
+    position: fixed;
+    top: 210;
+    left:260;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+#back-to-main{
+    width: 130px;
+    text-align: center;
+    /*background-image: url("C:\Users\Dell\Desktop\images (2).jpg");*/
+    background-attachment: fixed;
+    background-color: peru;
+    font-size: 30px;
+    font-weight: 550;
+    font-style: italic;
+    text-decoration-style: none;
+    display: inline;
+    color: rgb(2, 53, 19) ;
+    margin:30px;
+    box-sizing: border-box;
+    border-color: sandybrown ;
+    outline-style: outset;
+    outline-width: thick;
+    outline-color: peru;
+    text-decoration: none;
+    padding: 5px;
+    position: absolute;
+    margin-left:350px ;
+    margin-top: 550px;
+    cursor: pointer;
+
+}
+#back-to-main:hover {
+
+    color: #fff;
+
+
+}
